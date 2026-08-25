@@ -1,0 +1,93 @@
+﻿a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: normal;
+    font-weight: 700;
+    color: #172033;
+}
+
+/* LINK */
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1d4ed8;
+}
+
+/* buttons */
+
+.btn-primary {
+    color: #fff;
+    background-color: #2563eb;
+    border-color: #2563eb;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
+}
+
+/* NAVS */
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #2563eb;
+    border-color: #2563eb;
+    border-radius: 8px;
+}
+
+/* BORDAS */
+
+.border-top {
+    border-top: 1px solid #e5e7eb !important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e7eb !important;
+}
+
+/* SOMBRA */
+
+.box-shadow {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+/* COOKIES */
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* RODAPÉ */
+
+.footer {
+    position: static;
+    width: 100%;
+    margin-top: 50px;
+    padding: 22px 0;
+
+    background-color: #ffffff;
+    border-top: 1px solid #e5e7eb;
+
+    text-align: center;
+    line-height: normal;
+    white-space: normal;
+
+    color: #64748b;
+}
+
+.footer .container {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
